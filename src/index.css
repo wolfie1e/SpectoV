@@ -1102,12 +1102,7 @@ header nav {
     margin-right: 5px;
 }
 
-/* .timeline-item:hover .timeline-marker {
-    transform: translateX(-50%) scale(1.3);
-    box-shadow: 0 0 40px rgba(0, 240, 255, 0.8);
-} */
 
-/* Content Positioning with Perfect Alignment */
 .timeline-content {
     background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
     border: 1px solid rgba(0, 240, 255, 0.2);
@@ -1120,19 +1115,10 @@ header nav {
     transition: all 0.4s ease;
     animation: fadeInUp 0.8s ease-out;
     flex-shrink: 0;
+   
 }
 
-/* Left side content (odd items) */
-.timeline-item:nth-child(odd) .timeline-content {
-    margin-right: 50px;
-}
 
-/* Right side content (even items) */
-.timeline-item:nth-child(even) .timeline-content {
-    margin-left: 50px;
-}
-
-/* Content Arrows - Perfectly Aligned with Marker */
 .timeline-content::before {
     content: '';
     position: absolute;
@@ -1142,16 +1128,16 @@ header nav {
     border: 12px solid transparent;
 }
 
-/* Arrow for left side content pointing right */
+
 .timeline-item:nth-child(odd) .timeline-content::before {
     right: -24px;
-    border-left-color: #1a1a2e;
+
 }
 
-/* Arrow for right side content pointing left */
+
 .timeline-item:nth-child(even) .timeline-content::before {
     left: -24px;
-    border-right-color: #1a1a2e;
+   
 }
 
 .timeline-content::after {
@@ -1162,24 +1148,10 @@ header nav {
     right: 0;
     height: 4px;
     background: linear-gradient(90deg, var(--blue-100), var(--pink-100));
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
 }
 
-/* .timeline-content:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 70px rgba(0, 240, 255, 0.2);
-    border-color: rgba(0, 240, 255, 0.4);
-} */
 
-/* Perfect Typography Alignment */
-.timeline-content h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary);
-    margin: 0 0 16px 0; /* Removed top margin for perfect alignment */
-    line-height: 1.3;
-    padding: 0; /* Ensure no padding affects alignment */
-}
 
 .timeline-content p {
     font-size: 1rem;
@@ -1596,14 +1568,14 @@ header nav {
     align-items: center;
     min-height: 400px;
     padding: 0; /* Removed padding */
-    border-radius: 0; /* Removed border-radius */
+    border-radius: 0; 
     position: relative;
-    overflow: visible; /* Changed from hidden */
-    transition: none; /* Removed transitions */
-    cursor: default; /* Removed pointer cursor */
-    background: none; /* Removed all backgrounds */
-    border: none; /* Removed all borders */
-    box-shadow: none; /* Removed all shadows */
+    overflow: visible; 
+    transition: none; 
+    cursor: default; 
+    background: none; 
+    border: none; 
+    box-shadow: none; 
 }
 
 /* Layout Variations - Keep Grid Structure */
@@ -2463,10 +2435,3 @@ html {
         gap: 24px;
     }
 }
-
-
-
-
-
-
-
