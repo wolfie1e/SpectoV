@@ -1,8 +1,11 @@
-Webpage Redesign: Key Enhancements
-The redesigned webpage incorporates several strategic modifications aimed at enhancing user experience and visual appeal.
+# SpectoV 
+What I changed:
+The SpectoV homepage was redesigned with strategic enhancements to improve user experience and visual clarity. Key updates include a restructured navigation bar with better logo-name balance and more prominent buttons to guide interaction. Image and video sizes were reduced for optimal viewing, while the “Training Program” section was rephrased to be more engaging. The “Live Contests” section was expanded for greater detail, and course cards were meticulously realigned for a cleaner layout.
 
-The navigation bar has been re-engineered for improved user-friendliness, featuring a balanced presentation of the company logo and name for optimal brand visibility. Additionally, buttons have been made more prominent to guide user interaction effectively.
+Why I changed it:
+These changes were made to address issues of clutter, vague content, and uneven alignment in the original design. The goal was to improve usability, responsiveness, and overall content clarity.
 
-Further improvements include a reduction in the size of images and videos, optimizing them for comfortable viewing and to immediately capture viewer attention. The "Training Program" section has been rephrased to be more engaging and appealing to potential users, and the "Live Contests" information has been expanded to provide greater detail and clarity.
+How it improves the original:
+The redesign delivers a more intuitive and visually polished experience. It enhances user engagement, improves discoverability, and creates a stronger first impression—helping attract new visitors and retain returning users while setting a solid foundation for future scalability and SEO optimization.
 
-Finally, the course cards have been meticulously aligned to present a cleaner, more organized layout. These changes collectively aim to create a more intuitive, visually appealing, and informative user journey.
+Deployed Application : [view the website](https://spectov.onrender.com/)
